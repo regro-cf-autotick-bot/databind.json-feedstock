@@ -1,5 +1,5 @@
 {% set name = "databind.json" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/databind.json-{{ version }}.tar.gz
-  sha256: c66d5d3e8dc0ea1698ea4aa57c2c646d7c7223031a937e4e560a384039571563
+  sha256: 4f2c47783ed52cbe5e483068c7b10b881e123201253d7cabd38a95fdec170a86
 
 build:
   number: 0
