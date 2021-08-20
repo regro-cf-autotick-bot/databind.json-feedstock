@@ -9,7 +9,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/databind.json-{{ version }}.tar.gz
   sha256: 5e07c80859bfe99f7a40877b9b0033f4f7dd67e05f8184df97e47f96725dd1e5
-
 build:
   number: 0
   noarch: python
